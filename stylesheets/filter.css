@@ -1,0 +1,5 @@
+.w{width:320px !important;margin:0 auto;}
+.layout{margin:0 10px;}
+.pd{padding:11px 18px;}
+.search-words{display:none;border-top:1px solid #fff;padding-top:10px;text-align:center;}
+.search-words a{position:relative;display:inline-block;height:32px;line-height:31px;text-align:center;padding:0 15px;-webkit-transition:all 1s ease-in-out;-webkit-column-width:30%;-webkit-column-gap:10%;margin:5px;background:#fbfaec;border:1px solid #e8e4cc;border-radius:2px;text-decoration:none;font-size:14px;}

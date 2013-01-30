@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>seaJs小例子</title>
+</head>
+<body>
+<div class="w search-words" id="search_box">
+	<a href="#">两个</a>
+	<a href="#">字三个</a>
+	<a href="#">四个大字</a>
+	<a href="#">五个字字字</a>
+	<a href="#">还能超过六字</a>
+	<a href="#">你若安好,就是晴天</a>
+	<a href="#">三个字</a>
+	<a href="#">蛙</a>
+	<a href="#">三字个</a>
+	<a href="#">三字个</a>
+</div>
+<script type="text/javascript" src="javascripts/lib/sea.js"></script>
+<script type="text/javascript">
+	seajs.use("./javascripts/module/filter",function(s){
+	  s.filter();
+	});
+</script>
+</body>
+</html>
